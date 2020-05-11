@@ -1,0 +1,178 @@
+body {
+    background-image: url("bg.png");
+    font-family: sans-serif;
+}
+
+.Fotos {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.Text {
+    text-align: center;
+    font-weight: normal;
+}
+
+.Kontakt {
+    color: darkgreen;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+
+.formular {
+    background: lightgray;
+    font-size: 9pt;
+    color: white;
+    width: 200px;
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
+
+.formular2 {
+    background: lightgray;
+    font-size: 9pt;
+    color: white;
+    width: 350px;
+    padding: 5px 5px 20px 5px;
+    margin-left: 200px;
+}
+
+.Datenschutz {
+    font-size: 9pt;
+    color: lightgray;
+    margin-left: 200px;
+}
+
+.absenden {
+    font-size: 9pt;
+    color: white;
+    background: lightgray;
+    width: 55px; 
+    padding: 5px 5px 5px 5px;
+    margin-left: 200px;
+}
+
+.navbar {
+    display: inline-block;
+    background: black;
+    padding: 5px 8px 5px 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 9999;
+}
+
+.Nav1 {
+    border-right: solid 1px white;
+}
+
+.Nav2 {
+    border-right: solid 1px white;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #50C878;
+}
+
+a:active {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+div a.activePage1 {
+    border-right: solid 1px white;
+    color:darkgreen;
+    font-weight: bolder;
+}
+
+div a.activePage2 {
+    color:darkgreen;
+    font-weight: bolder;
+}
+
+a.NatyraArt {
+    color:black;
+}
+
+.Container {
+    position: relative;
+    color: white;
+    margin: 0 auto;
+    width: 700px;
+}
+
+.centered {
+    font-size: 100pt;
+    color: white;
+    letter-spacing: -10px;
+    font-weight: bolder;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered2 {
+    font-size: 24pt;
+    color: white;
+    letter-spacing: -3px;
+    font-weight: bolder;
+    position: absolute;
+    top: 65%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+
+.circle {
+    position: relative;
+    display: block;
+    margin: -35px auto;
+    width: 700px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 87%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.icon2 {
+    position: absolute;
+    top: 87.3%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}
+
+.icon1:hover {
+    opacity: .5;
+}
+
+.icon2:hover {
+    opacity: .5;
+}
