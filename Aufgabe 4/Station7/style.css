@@ -1,0 +1,30 @@
+body {
+    background-image: url("bg.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 150px;
+}
+
+.videocontainer {
+    display: inline-block;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 2px;
+}
+
+.banderole {
+    display: inline-block;
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 138px;
+}
+
