@@ -37,37 +37,44 @@ p {
     margin-left: 200px;
 }
 
-.formular {
-    background: lightgray;
+#Vorname, #Nachname, #Email {
+    background-color: lightgray;
     font-size: 9pt;
-    color: white;
     width: 200px;
     padding: 5px 5px 5px 5px;
     margin-left: 200px;
 }
 
-.formular2 {
-    background: lightgray;
+#Nachricht {
+    background-color: lightgray;
     font-size: 9pt;
-    color: white;
     width: 350px;
     padding: 5px 5px 20px 5px;
     margin-left: 200px;
 }
 
-.Datenschutz {
+#absenden {
+    background-color: lightgray;
+    color: white;
     font-size: 9pt;
-    color: lightgray;
+    width: 60px;
+    padding: 5px 5px 5px 5px;
     margin-left: 200px;
 }
 
-.absenden {
-    font-size: 9pt;
+::placeholder {
     color: white;
-    background: lightgray;
-    width: 55px; 
-    padding: 5px 5px 5px 5px;
+}
+
+.Datenschutz {
+    font-size: 9pt;
+    color: rgb(156, 154, 154);
     margin-left: 200px;
+}
+
+input {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 .navbar {
