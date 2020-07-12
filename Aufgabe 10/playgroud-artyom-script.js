@@ -6,6 +6,10 @@ window.addEventListener("load", function () {
         smart: true,
         action: function (i, wildcard) {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            toDoList.unshift({ text: wildcard,
+                checked: false
+            });
+            drawListToDOM();
         }
     });
     function startContinuousArtyom() {

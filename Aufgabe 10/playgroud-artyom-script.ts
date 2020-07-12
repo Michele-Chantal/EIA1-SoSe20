@@ -8,6 +8,12 @@ window.addEventListener("load", function(): void {
         smart: true,
         action: function(i: any, wildcard: string): void {
             console.log("Neue Aufgabe wird erstellt: " + wildcard);
+            toDoList.unshift(
+                { text: wildcard,
+                checked: false
+                }
+            );
+            drawListToDOM();
         }
     });
     
@@ -30,5 +36,4 @@ window.addEventListener("load", function(): void {
     }
     
     startContinuousArtyom();
-    
 });
